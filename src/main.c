@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <device_manager.c>
 
 // Struct definitions
 struct Device {
@@ -17,6 +18,8 @@ struct Authorizor {
     struct Device device;
     union User user;
 };
+
+void updateDeviceStatus(char status);
 
 
 int main() {
