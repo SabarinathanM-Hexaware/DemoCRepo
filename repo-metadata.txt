@@ -1,0 +1,2 @@
+src/device_manager.c={"dev": "manage"}
+src/main.c={"main": "file"}
